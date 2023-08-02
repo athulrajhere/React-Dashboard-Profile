@@ -1,0 +1,78 @@
+.profile-section-container {
+  margin: 0px 52px 0px 32px;
+}
+
+.profile-section-top {
+  display: flex;
+}
+
+.profile-forms {
+  width: 100%;
+}
+
+.profile-top-area {
+  background-color: var(--neutral-500);
+  height: 192px;
+  border-radius: 0px 0px 8px 8px;
+  margin: 0px 8px 0px 8px;
+  display: flex;
+}
+
+.profile-label {
+  display: flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 724px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 16px;
+}
+
+.profile-avatar {
+  width: 140px;
+  height: 140px;
+  margin: -45px 0px 0px 32px;
+  z-index: 1;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 19px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--dark-100);
+}
+
+.profile-email {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--gray-100);
+}
+
+.profile-edit {
+  display: flex;
+  gap: 2px;
+  padding: 8px 0px 0px 0px;
+}
+
+.profile-edit-label {
+  color: var(--purple-100);
+}

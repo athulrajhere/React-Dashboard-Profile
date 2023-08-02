@@ -1,0 +1,28 @@
+.sidebar-option {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 0px;
+  color: var(--gray-200);
+  cursor: pointer;
+}
+
+.sidebar-label {
+  font-size: 9px;
+}
+
+.sidebar-icon {
+  font-size: 24px;
+}
+.active {
+  color: var(--white);
+  background-color: var(--purple-100);
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.sidebar-option:hover {
+  color: #6264a7;
+}

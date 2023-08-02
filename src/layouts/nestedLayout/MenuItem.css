@@ -1,0 +1,12 @@
+.menu-item {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px;
+}
+.item-active {
+  background-color: var(--purple-100);
+  text-decoration: none;
+  width: 100%;
+}
