@@ -15,12 +15,12 @@ export const SidebarData = [
 export const NestedMenu = [
   {
     id: 1,
-    to:"profile",
+    to: "profile",
     name: "Profile",
   },
   {
     id: 2,
-    to:"security",
+    to: "security",
     name: "Security",
   },
 ];
@@ -28,42 +28,26 @@ export const NestedMenu = [
 export const NestedMenuHome = [
   {
     id: 1,
-    to:"/",
+    to: "/",
     name: "Home",
-  },
-  {
-    id: 2,
-    to:"home2",
-    name: "Home 2",
   },
 ];
 
 export const NestedMenuUser = [
   {
     id: 1,
-    to:"user",
+    to: "user",
     name: "User",
-  },
-  {
-    id: 2,
-    to:"user2",
-    name: "User 2",
   },
 ];
 
 export const NestedMenuSettings = [
   {
     id: 1,
-    to:"settings",
+    to: "settings",
     name: "Settings",
   },
-  {
-    id: 2,
-    to:"settings2",
-    name: "Settings 2",
-  },
 ];
-
 
 export const SidebarBottom = [
   {
@@ -72,4 +56,3 @@ export const SidebarBottom = [
     icon: icon("ic_download"),
   },
 ];
-
