@@ -1,5 +1,6 @@
 # React-Dashboard-Profile
 
+A simple react dashboard
 ### Live Demo: [https://react-dashboard-profile.netlify.app/](https://react-dashboard-profile.netlify.app/)
 
 ### Getting Started:
